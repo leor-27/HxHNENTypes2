@@ -1,0 +1,50 @@
+html, body {
+    background-color: #0F1113;
+    font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial;
+    color: #ECEFF1;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.navigation, .link-to-other-pages {
+    text-align: center;
+}
+
+.navigation a, .link-to-other-pages a {
+    display: inline-block; 
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 17px;
+    transition: color .22s ease, background-color .22s ease, transform .12s ease;
+    color: grey;
+    text-decoration: none;
+}
+
+.link-to-other-pages a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    font-weight: bold;
+}
+
+.navigation a.home:hover { color: #3D9BE9; }
+
+.navigation a.enhancer:hover { color: red;}
+
+.navigation a.emitter:hover { color: #FF8A00; }
+
+.navigation a.manipulator:hover { color: #ffd900; }
+
+.navigation a.specialist:hover { color: #00CED1; }
+
+.card-home, .card-enhancer, .card-emitter, .card-manipulator, .card-specialist {
+  background: #17181A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
